@@ -1,7 +1,7 @@
 # 🐍 ASPM IA - Python API Core
 
 <p align="center">
-  <img src="../Gemini_Generated_Image_qpglwoqpglwoqpgl.png" alt="ASPM Logo" width="400">
+  <img src="../logo_projeto.png" alt="ASPM Logo" width="400">
 </p>
 
 <p align="center">
@@ -20,6 +20,7 @@
 ---
 
 ## 📖 Sobre o Modulo
+
 Este diretório contém o **Core da API Python** do projeto **ASPM IA FIAP - Desafio Pride 2026**. Atualmente, o projeto está em suas fases iniciais ("engatinhando"), focando na estrutura base de gerenciamento de usuários e segurança de ativos.
 
 O objetivo futuro é integrar motores de busca de vulnerabilidades e análise de postura de segurança (ASPM) em uma interface CLI intuitiva e containerizada.
@@ -94,6 +95,7 @@ api_python/
 ## 🚀 Como Executar
 
 ### 🐳 Via Docker (Recomendado)
+
 Para rodar o ambiente completamente isolado e interativo:
 
 ```bash
@@ -101,15 +103,21 @@ docker compose up --build
 ```
 
 ### 🐍 Via Python Local
+
 1. Crie um ambiente virtual:
+
    ```bash
    python -m venv .venv
    ```
+
 2. Instale as dependências:
+
    ```bash
    pip install -r requirements.txt
    ```
+
 3. Execute:
+
    ```bash
    python main.py
    ```
@@ -117,6 +125,7 @@ docker compose up --build
 ---
 
 ## 📈 Roadmap / Próximos Passos
+
 - [x] Estrutura base de pastas.
 - [x] CRUD básico de usuários.
 - [x] Suporte a Docker.
