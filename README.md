@@ -1,4 +1,4 @@
-# 🛡️ ASPM IA — Security Scanner CLI
+<h1 align="center">🛡️ ASPM IA — Security Scanner CLI</h1>
 
 ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, DevSecOps, GRC e Segurança da Informação
 
