@@ -124,6 +124,27 @@ docker compose up --build
 
 ---
 
+## 🖥️ Demonstração do Módulo CLI/CMD
+
+O módulo CLI/CMD do ASPM IA permite executar varreduras locais em projetos de software, identificar padrões de risco e gerar relatórios estruturados para análise posterior.
+
+### Funcionalidades demonstradas
+
+- Menu interativo em terminal;
+- Scan de projetos locais;
+- Barra de progresso da varredura;
+- Resumo consolidado de ocorrências;
+- Classificação por severidade: crítico, alto, médio e baixo;
+- Detecção de padrões como RCE, credenciais hardcoded, SSRF, XSS, path traversal, TLS/SSL inseguro, JWT inseguro, CORS e queries SQL;
+- Geração de relatório estruturado em JSON;
+- Listagem de relatórios anteriores;
+- Visualização detalhada de cada achado;
+- Exibição do arquivo, linha, padrão detectado e trecho de código;
+- Referências técnicas CWE/OWASP;
+- Abertura automática do arquivo-fonte no editor para facilitar correção.
+
+---
+
 ## 📈 Roadmap / Próximos Passos
 
 - [x] Estrutura base de pastas.
