@@ -3,7 +3,7 @@
 ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, DevSecOps, GRC e Segurança da Informação
 
 <p align="center">
-  <img src="../logo_projeto.png" alt="ASPM Logo" width="400">
+  <img src="logo_projeto.png" alt="ASPM Logo" width="400">
 </p>
 
 <p align="center">
@@ -150,22 +150,22 @@ O módulo CLI/CMD do ASPM IA permite executar varreduras locais em projetos de s
 ### 📸 Demonstração do fluxo
 
 #### 1. Menu principal
-![Menu principal](./assets/images/scanner-cli/menu-principal.png)
+![Menu principal](assets/images/scanner-cli/menu-principal.png)
 
 #### 2. Scan com barra de progresso
-![Scan com progresso](./assets/images/scanner-cli/scan-progresso.png)
+![Scan com progresso](assets/images/scanner-cli/scan-progresso.png)
 
 #### 3. Resumo consolidado do scan
-![Resumo do scan](./assets/images/scanner-cli/resumo-scan.png)
+![Resumo do scan](assets/images/scanner-cli/resumo-scan.png)
 
 #### 4. Listagem de relatórios JSON
-![Relatórios JSON](./assets/images/scanner-cli/relatorios-json.png)
+![Relatórios JSON](assets/images/scanner-cli/relatorios-json.png)
 
 #### 5. Detalhe da falha selecionada
-![Detalhe da falha](./assets/images/scanner-cli/detalhe-falha.png)
+![Detalhe da falha](assets/images/scanner-cli/detalhe-falha.png)
 
 #### 6. Abertura automática do código-fonte
-![Abertura do código-fonte](./assets/images/scanner-cli/abertura-codigo-fonte.png)
+![Abertura do código-fonte](assets/images/scanner-cli/abertura-codigo-fonte.png)
 
 ---
 
