@@ -1,4 +1,6 @@
-# 🐍 ASPM IA - Python API Core
+# 🛡️ ASPM IA — Security Scanner CLI
+
+ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, DevSecOps, GRC e Segurança da Informação
 
 <p align="center">
   <img src="../logo_projeto.png" alt="ASPM Logo" width="400">
@@ -12,33 +14,35 @@
 
 <p align="center">
   <a href="../README.md">🏠 README Raiz</a> •
-  <a href="../documentacao/README.md">📚 Dicionario</a> •
+  <a href="../documentacao/README.md">📚 Dicionário</a> •
   <a href="#-como-executar">🚀 Como Executar</a> •
   <a href="#-roadmap--proximos-passos">🗺️ Roadmap</a>
 </p>
 
 ---
 
-## 📖 Sobre o Modulo
+## 📖 Sobre o Projeto
 
-Este diretório contém o **Core da API Python** do projeto **ASPM IA FIAP - Desafio Pride 2026**. Atualmente, o projeto está em suas fases iniciais ("engatinhando"), focando na estrutura base de gerenciamento de usuários e segurança de ativos.
+O **ASPM IA — Security Scanner CLI** é um projeto acadêmico de portfólio inspirado no **FIAP Challenge 2026 / Pride Security**, com foco em ASPM, DevSecOps, GRC e Segurança da Informação.
 
-O objetivo futuro é integrar motores de busca de vulnerabilidades e análise de postura de segurança (ASPM) em uma interface CLI intuitiva e containerizada.
+A proposta é demonstrar uma ferramenta CLI em Python capaz de executar varreduras locais em projetos de software, identificar padrões de risco em código-fonte, classificar achados por severidade e gerar relatórios estruturados para apoio à análise técnica, governança, riscos e compliance.
+
+Este repositório é uma apresentação pública e conceitual de portfólio. O repositório oficial do projeto permanece restrito aos integrantes autorizados.
 
 ---
 
-## 🏗️ Arquitetura do Modulo (Fase Atual)
+## 🏗️ Arquitetura do Módulo (Fase Atual)
 
-Abaixo, os diagramas em Mermaid adaptados para renderizacao no GitHub:
+Abaixo, os diagramas em Mermaid adaptados para renderização no GitHub:
 
 ```mermaid
 flowchart TD
     A[main.py] --> B[Menu principal]
-    B --> C{Opcoes}
+    B --> C{Opções}
     C -->|1| D[Menu de cadastro]
     C -->|0| E[Sair]
 
-    subgraph CAD[Modulo cadastro - app/ui/cadastro]
+    subgraph CAD[Módulo cadastro - app/ui/cadastro]
         D --> D1[Criar usuario]
         D --> D2[Listar usuarios]
         D1 --> DB[database.py]
@@ -46,7 +50,7 @@ flowchart TD
         DB --> TXT[(usuarios.txt)]
     end
 
-    subgraph UTL[Utilitarios - app/utils]
+    subgraph UTL[Utilitários - app/utils]
         H[helpers.py] --> Visual[Limpar tela]
         T[tempo.py] --> Log[Timestamp UTC]
     end
@@ -54,8 +58,8 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    DEV[Desenvolvedor] --> LOCAL[Execucao local]
-    DEV --> CONT[Execucao container]
+    DEV[Desenvolvedor] --> LOCAL[Execução local]
+    DEV --> CONT[Execução container]
     LOCAL --> CMD1[python main.py]
     CONT --> CMD2[docker compose up --build]
     CMD1 --> CLI[CLI ativa]
@@ -143,16 +147,47 @@ O módulo CLI/CMD do ASPM IA permite executar varreduras locais em projetos de s
 - Referências técnicas CWE/OWASP;
 - Abertura automática do arquivo-fonte no editor para facilitar correção.
 
+### 📸 Demonstração do fluxo
+
+#### 1. Menu principal
+![Menu principal](./assets/images/scanner-cli/menu-principal.png)
+
+#### 2. Scan com barra de progresso
+![Scan com progresso](./assets/images/scanner-cli/scan-progresso.png)
+
+#### 3. Resumo consolidado do scan
+![Resumo do scan](./assets/images/scanner-cli/resumo-scan.png)
+
+#### 4. Listagem de relatórios JSON
+![Relatórios JSON](./assets/images/scanner-cli/relatorios-json.png)
+
+#### 5. Detalhe da falha selecionada
+![Detalhe da falha](./assets/images/scanner-cli/detalhe-falha.png)
+
+#### 6. Abertura automática do código-fonte
+![Abertura do código-fonte](./assets/images/scanner-cli/abertura-codigo-fonte.png)
+
 ---
 
-## 📈 Roadmap / Próximos Passos
+## 🗺️ Roadmap / Próximos Passos
 
-- [x] Estrutura base de pastas.
-- [x] CRUD básico de usuários.
-- [x] Suporte a Docker.
-- [ ] Integração com Banco de Dados persistente (SQLite/MongoDB).
-- [ ] Implementação de Scanners de Vulnerabilidades.
-- [ ] Dashboard de logs com IA.
+- [x] Estrutura base de pastas;
+- [x] Interface CLI/CMD inicial;
+- [x] Scanner local de projetos;
+- [x] Barra de progresso da varredura;
+- [x] Classificação de achados por severidade;
+- [x] Geração de relatórios estruturados em JSON;
+- [x] Listagem de relatórios anteriores;
+- [x] Visualização detalhada de falhas;
+- [x] Exibição de arquivo, linha, padrão detectado e trecho de código;
+- [x] Referências técnicas CWE/OWASP;
+- [x] Abertura automática do arquivo-fonte no editor;
+- [ ] Redução de falsos positivos por validação contextual;
+- [ ] Exportação de relatórios em HTML/PDF;
+- [ ] Dashboard web para visualização dos achados;
+- [ ] Integração com pipelines CI/CD;
+- [ ] Integração com bases CVE/CWE;
+- [ ] Camada de IA para explicação, priorização e remediação dos riscos.
 
 ---
 
