@@ -1,4 +1,4 @@
-<h1 align="center">🛡️ ASPM IA — Security Scanner CLI</h1>
+# 🛡️ ASPM IA — Security Scanner CLI
 
 ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, DevSecOps, GRC e Segurança da Informação
 
@@ -25,7 +25,7 @@ ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, 
 
 O **ASPM IA — Security Scanner CLI** é um projeto acadêmico de portfólio inspirado no **FIAP Challenge 2026 / Pride Security**, com foco em ASPM, DevSecOps, GRC e Segurança da Informação.
 
-A proposta é demonstrar uma ferramenta CLI em Python capaz de executar varreduras locais em projetos de software, identificar padrões de risco em código-fonte, classificar achados por severidade e gerar relatórios estruturados para apoio à análise técnica, governança, riscos e compliance.
+A proposta é demonstrar uma ferramenta CLI em Python capaz de executar varreduras locais em projetos de software, identificar padrões de risco em código-fonte, classificar achados por severidade e gerar relatórios estruturados para apoio à análise técnica, governança, riscos, compliance e LGPD.
 
 Este repositório é uma apresentação pública e conceitual de portfólio. O repositório oficial do projeto permanece restrito aos integrantes autorizados.
 
@@ -149,25 +149,65 @@ O módulo CLI/CMD do ASPM IA permite executar varreduras locais em projetos de s
 - Referências técnicas CWE/OWASP;
 - Abertura automática do arquivo-fonte no editor para facilitar correção.
 
-### 📸 Demonstração do fluxo
+## 📸 Demonstração do fluxo
 
-#### 1. Menu principal
-![Menu principal](assets/images/1-menu-principal.png)
+A sequência abaixo apresenta o fluxo principal do módulo **Security Scanner CLI**, desde a navegação inicial no terminal até a análise detalhada dos achados e a abertura automática do arquivo-fonte para revisão técnica.
 
-#### 2. Scan com barra de progresso
-![Scan com progresso](assets/images/2-scan-progresso.png)
+---
 
-#### 3. Resumo consolidado do scan
-![Resumo do scan](assets/images/3-resumo-scan.png)
+### 1. Menu principal
 
-#### 4. Listagem de relatórios JSON
-![Relatórios JSON](assets/images/4-listagem-relatorios.png)
+![Menu principal](./assets/images/scanner-cli/01-menu-principal.png)
 
-#### 5. Detalhe da falha selecionada
-![Detalhe da falha](assets/images/6-detalhe-falha.png)
+O menu principal centraliza as funcionalidades do módulo, permitindo iniciar varreduras, consultar relatórios, acessar logs do sistema e visualizar informações gerais do projeto.
 
-#### 6. Abertura automática do código-fonte
-![Abertura do código-fonte](assets/images/7-listagem-relatorios.png)
+---
+
+### 2. Seleção e início do scan de projeto
+
+![Scan de projeto](./assets/images/scanner-cli/02-scan-projeto.png)
+
+Nesta etapa, o usuário inicia a análise de um projeto local. O scanner percorre a estrutura definida e prepara a inspeção dos arquivos em busca de padrões associados a riscos de segurança.
+
+---
+
+### 3. Varredura com barra de progresso
+
+![Progresso da varredura](./assets/images/scanner-cli/03-progresso-varredura.png)
+
+Durante a execução, a ferramenta exibe o progresso da análise em tempo real, permitindo acompanhar visualmente o andamento do scan e o processamento dos arquivos avaliados.
+
+---
+
+### 4. Resumo consolidado do scan
+
+![Resumo do scan](./assets/images/scanner-cli/04-resumo-scan.png)
+
+Ao final da varredura, o sistema apresenta um resumo consolidado dos achados, incluindo total de ocorrências identificadas, categorias detectadas e classificação por severidade.
+
+---
+
+### 5. Listagem de relatórios gerados
+
+![Listagem de relatórios](./assets/images/scanner-cli/05-listagem-relatorios.png)
+
+Os relatórios estruturados em JSON ficam disponíveis para consulta posterior, permitindo histórico de auditoria, rastreabilidade dos scans executados e reaproveitamento das evidências geradas.
+
+---
+
+### 6. Análise detalhada da falha selecionada
+
+![Detalhe da falha](./assets/images/scanner-cli/06-detalhe-falha.png)
+
+Cada ocorrência pode ser inspecionada individualmente, com exibição de severidade, arquivo, linha, padrão detectado, explicação técnica, referências CWE/OWASP e trecho do código relacionado ao achado.
+
+---
+
+### 7. Abertura automática do arquivo-fonte
+
+![Abertura do código-fonte](./assets/images/scanner-cli/07-abertura-codigo-fonte.png)
+
+Como apoio à investigação e correção, o módulo pode abrir automaticamente o arquivo-fonte no editor, facilitando a validação contextual do achado e acelerando a análise técnica do problema identificado.
 
 ---
 
