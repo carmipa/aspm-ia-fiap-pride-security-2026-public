@@ -13,10 +13,10 @@ ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, 
 </p>
 
 <p align="center">
-  <a href="../README.md">🏠 README Raiz</a> •
-  <a href="../documentacao/README.md">📚 Dicionário</a> •
-  <a href="#-como-executar">🚀 Como Executar</a> •
-  <a href="#-roadmap--proximos-passos">🗺️ Roadmap</a>
+  <a href="./README.md">🏠 README Raiz</a> •
+  <a href="./documentacao/README.md">📚 Dicionário</a> •
+  <a href="#como-executar">🚀 Como Executar</a> •
+  <a href="#roadmap">🗺️ Roadmap</a>
 </p>
 
 ---
@@ -96,6 +96,8 @@ api_python/
 
 ---
 
+<a id="como-executar"></a>
+
 ## 🚀 Como Executar
 
 ### 🐳 Via Docker (Recomendado)
@@ -168,6 +170,8 @@ O módulo CLI/CMD do ASPM IA permite executar varreduras locais em projetos de s
 ![Abertura do código-fonte](assets/images/scanner-cli/abertura-codigo-fonte.png)
 
 ---
+
+<a id="roadmap"></a>
 
 ## 🗺️ Roadmap / Próximos Passos
 
