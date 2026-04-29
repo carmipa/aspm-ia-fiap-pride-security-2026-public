@@ -157,7 +157,7 @@ A sequência abaixo apresenta o fluxo principal do módulo **Security Scanner CL
 
 ### 1. Menu principal
 
-![Menu principal](./assets/images/scanner-cli/01-menu-principal.png)
+![Menu principal](./assets/images/1-menu-principal.png)
 
 O menu principal centraliza as funcionalidades do módulo, permitindo iniciar varreduras, consultar relatórios, acessar logs do sistema e visualizar informações gerais do projeto.
 
@@ -165,7 +165,7 @@ O menu principal centraliza as funcionalidades do módulo, permitindo iniciar va
 
 ### 2. Seleção e início do scan de projeto
 
-![Scan de projeto](./assets/images/scanner-cli/02-scan-projeto.png)
+![Scan de projeto](./assets/images/2-scan-progresso.png)
 
 Nesta etapa, o usuário inicia a análise de um projeto local. O scanner percorre a estrutura definida e prepara a inspeção dos arquivos em busca de padrões associados a riscos de segurança.
 
@@ -173,7 +173,7 @@ Nesta etapa, o usuário inicia a análise de um projeto local. O scanner percorr
 
 ### 3. Varredura com barra de progresso
 
-![Progresso da varredura](./assets/images/scanner-cli/03-progresso-varredura.png)
+![Progresso da varredura](./assets/images/3-resumo-scan.png)
 
 Durante a execução, a ferramenta exibe o progresso da análise em tempo real, permitindo acompanhar visualmente o andamento do scan e o processamento dos arquivos avaliados.
 
@@ -181,7 +181,7 @@ Durante a execução, a ferramenta exibe o progresso da análise em tempo real, 
 
 ### 4. Resumo consolidado do scan
 
-![Resumo do scan](./assets/images/scanner-cli/04-resumo-scan.png)
+![Resumo do scan](./assets/images/4-listagem-relatorios.png)
 
 Ao final da varredura, o sistema apresenta um resumo consolidado dos achados, incluindo total de ocorrências identificadas, categorias detectadas e classificação por severidade.
 
@@ -189,7 +189,7 @@ Ao final da varredura, o sistema apresenta um resumo consolidado dos achados, in
 
 ### 5. Listagem de relatórios gerados
 
-![Listagem de relatórios](./assets/images/scanner-cli/05-listagem-relatorios.png)
+![Listagem de relatórios](./assets/images/5-listagem-relatorios.png)
 
 Os relatórios estruturados em JSON ficam disponíveis para consulta posterior, permitindo histórico de auditoria, rastreabilidade dos scans executados e reaproveitamento das evidências geradas.
 
@@ -197,7 +197,7 @@ Os relatórios estruturados em JSON ficam disponíveis para consulta posterior, 
 
 ### 6. Análise detalhada da falha selecionada
 
-![Detalhe da falha](./assets/images/scanner-cli/06-detalhe-falha.png)
+![Detalhe da falha](./assets/images/6-detalhe-falha.png)
 
 Cada ocorrência pode ser inspecionada individualmente, com exibição de severidade, arquivo, linha, padrão detectado, explicação técnica, referências CWE/OWASP e trecho do código relacionado ao achado.
 
@@ -205,7 +205,7 @@ Cada ocorrência pode ser inspecionada individualmente, com exibição de severi
 
 ### 7. Abertura automática do arquivo-fonte
 
-![Abertura do código-fonte](./assets/images/scanner-cli/07-abertura-codigo-fonte.png)
+![Abertura do código-fonte](./assets/images/7-listagem-relatorios.png)
 
 Como apoio à investigação e correção, o módulo pode abrir automaticamente o arquivo-fonte no editor, facilitando a validação contextual do achado e acelerando a análise técnica do problema identificado.
 
