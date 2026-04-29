@@ -1,4 +1,4 @@
-# 🛡️ ASPM IA — Security Scanner CLI
+<h1 align="center">🛡️ ASPM IA — Security Scanner CLI</h1>
 
 ASPM IA — Security Scanner CLI | FIAP Challenge 2026 / Pride Security | ASPM, DevSecOps, GRC e Segurança da Informação
 
@@ -167,7 +167,7 @@ O módulo CLI/CMD do ASPM IA permite executar varreduras locais em projetos de s
 ![Detalhe da falha](assets/images/6-detalhe-falha.png)
 
 #### 6. Abertura automática do código-fonte
-![Abertura do código-fonte](assets/images/6-listagem-relatorios.png)
+![Abertura do código-fonte](assets/images/7-listagem-relatorios.png)
 
 ---
 
