@@ -236,6 +236,12 @@ Como apoio à investigação e correção, o módulo pode abrir automaticamente 
 ---
 
 <p align="center">
-  <b>RM 570877 - Paulo André Carminati</b><br>
-  FIAP - 1TDCPV - 2026
+  <b>Equipe</b><br>
+  Paulo Andre Carminati - RM570877<br>
+  Gustav Quental Scorsi - RM569862<br>
+  Andre Archanjo dos Santos Torres - RM570458<br>
+  Luiz Carlos da Paixao dos Santos - RM573009<br>
+  Victor Henrique de Barros Oliveira - RM570012<br><br>
+  🎓 FIAP Challenge Pride Security 2026<br>
+  🏫 Turma 1TDCPV - 2026
 </p>
